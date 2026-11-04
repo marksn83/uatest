@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+
+    <!-- Instant redirect via meta refresh tag -->
+    <meta http-equiv="refresh" content="0; url=https://www.example.com">
+
+    <!-- Canonical link for SEO -->
+    <link rel="canonical" href="https://www.google.com">
+
+    <script>
+        // JavaScript redirect (replace prevents the current page from being saved in session history)
+        window.location.replace("https://www.google.com");
+    </script>
+</head>
+<body>
+    <p>If you are not redirected automatically, follow this <a href="https://www.example.com">link to the destination</a>.</p>
+</body>
+</html>
